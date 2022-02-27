@@ -1,0 +1,62 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #8a2b06;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.main-image {
+  width: 100%;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+}
+
+.react-meals{
+  margin-left: 5%;
+}
+
+.react-cart{
+  margin-right: 5%;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4d1601;
+  padding: 1% 2% 1% 2%;
+  border-radius: 15px;
+}
+
+.cart-styling img {
+  object-fit: cover;
+  height: 100%;
+  margin-right: 9%;
+}
+
+.cart-styling > h3{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.badge{
+    background-color: #b94517;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
